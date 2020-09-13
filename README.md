@@ -1,0 +1,2 @@
+# HelpingHandsApp
+Helping Hands in an android application that is built to provide food for the unfortunate and needy people. The objective of developing this application is that it will help poor people by giving them food who can't afford a one time meal a day. With the use of this application throwing of extra food can be avoided and can be given to needy people in the society. Through this application, one can donate food which is extra in their space.
