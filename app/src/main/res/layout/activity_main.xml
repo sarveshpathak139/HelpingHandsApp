@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="#fff"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+        app:srcCompat="@drawable/helpinglogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bitter"
+        android:text="Welcome Users"
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dp"
+        android:textSize="40sp" />
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+            android:layout_marginLeft="0dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight=".50"
+            android:layout_width="0dp"
+            >
+            <Button
+                android:id="@+id/messhotelowner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+
+                android:text="I'am Helper"
+                android:transitionName="button_trans" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_marginTop="50dp"
+
+            android:layout_weight=".50"
+            android:layout_width="0dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="190dp"
+
+            >
+            <Button
+                android:id="@+id/coordinator"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".50"
+
+                android:layout_marginTop="20dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="I am Cordinator"
+                android:transitionName="button_trans" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+<!--</LinearLayout>-->
